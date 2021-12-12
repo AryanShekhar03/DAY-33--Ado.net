@@ -25,6 +25,9 @@ namespace EmployeeManagement
             employee.StartDate = DateTime.Now;
 
             repo.AddEmployee(employee);
+            repo.GetAllEmployee();
+
+            Console.WriteLine("Data is retrived succesfully!");
         }
     }
 }
