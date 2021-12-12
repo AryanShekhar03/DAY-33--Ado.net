@@ -20,5 +20,9 @@ namespace EmployeeManagement
         public DateTime StartDate { get; set; }
         public string City { get; set; }
         public string Country { get; set; }
+        public string JobDescription { get; set; }
+        public string Month { get; set; }
+        public int EmployeeSalary { get; set; }
+        public int SalaryId { get; set; }
     }
 }
